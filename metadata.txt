@@ -1,0 +1,35 @@
+# This file contains metadata for your plugin.
+# This file should be included when you package your plugin.
+# Mandatory items:
+
+[general]
+name=BGT Downloader
+qgisMinimumVersion=3.0
+description=Download BGT (Dutch Large Schale Base Map) features via the PDOK OGC-API Features service.
+version=0.9
+supportsQt6=True
+author=wvdbee, with help from Claude and CoPilot.
+email=wvdbosse@gmail.com
+
+about=This plugin downloads BGT (Basisregistratie Grootschalige Topografie) features from the Dutch PDOK service via OGC-API Features. It allows specifying which features to download, the extent, and where to save the output.
+
+# Optional items:
+homepage=https://github.com/wvdbee/bgt_downloader
+repository=https://github.com/wvdbee/bgt_downloader
+tracker=https://github.com/wvdbee/bgt_downloader/issues
+category=Web
+icon=icon.png
+
+# Tags are comma separated with spaces allowed
+tags=netherlands, PDOK, BGT, download, OGC API, Dutch, base map, large scale
+
+hasProcessingProvider=no
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# changelog
+changelog=
+    0.9   - initial release.
