@@ -1,3 +1,6 @@
-/.vscode
-/make_zip.py
-/__pycache__
+__pycache__/bgt_downloader.cpython-312.pyc
+__pycache__/resources.cpython-312.pyc
+make_zip.py
+.vscode/launch.json
+__pycache__/__init__.cpython-312.pyc
+.gitignore
